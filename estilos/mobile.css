@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+}
+
+
+body{
+    position: relative;
+    background-color: #5F2C82;
+    font: normal 1em Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 515px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 2px #00000085;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+#imagem{
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+    background: black url('../imagem.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#conteudo{
+    display: block;
+    width: 250px;
+    max-width: 95%;
+    padding: 10px;
+    border-radius: 0 0 15px 15px;
+    font-size: .8em;
+}
+h1{
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+div.input{
+    margin: 5px 0;
+}
+div.cxtxt{
+    width: 100%;
+    height: 40px;
+    background-color: #5F2C82;
+    border-radius: 10px;
+    border: solid 2px #5F2C82;
+}
+input{
+    height: 40px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+
+    font-size: 1em;
+}
+input.cxtxt{
+    width: calc(100% - 54px);
+    height: 100%;
+    padding: 0 4px;
+
+    background-color: #94CFCD;
+    transform: translateY(-8px);
+}
+input.cxtxt:focus-within{
+    background-color: white;
+}
+#entrar{
+    background-color: #53AAA7;
+    color: white;
+}
+#entrar:hover{
+    background-color: #2D6462;
+    text-align: center;
+}
+#lembrar {
+    display: block;
+    border: solid 1px #53AAA7;
+    color: #2D6462;
+    text-align: center;
+    text-decoration: none;
+}
+#lembrarP {
+    display: inline-block;
+    transform: translateY(-7px);
+}
+#lembrar:hover{
+    background-color: #53AAA7;
+}
+.material-icons {
+    color: white;
+    padding: 8px;
+}

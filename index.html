@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto login</title>
+
+    <link rel="stylesheet" href="estilos/mobile.css" media="all">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+            <div id="imagem"></div>
+
+            <div id="conteudo">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                    <form method="post" autocomplete="on">
+                        <div class="input cxtxt">
+                            <span class="material-icons">person</span>
+                            <input type="email" name="email" id="email" autocomplete="email" placeholder="seu e-mail" class="cxtxt">
+                        </div>
+                        <div class="input cxtxt">
+                            <span class="material-icons">vpn_key</span>
+                            <input type="password" name="senha" id="senha" autocomplete="current-password" placeholder="sua senha" class="cxtxt">
+                        </div>
+                        <div class="input"><input type="submit" value="Entrar" id="entrar"></div>
+                        <div class="input">
+                            <a href="#" id="lembrar">
+                                <span id="lembrarP">Esqueci a senha</span>
+                                <span class="material-icons" style="color: #2D6462;">mail</span>
+                                
+                            </a>
+                        </div>
+                    </form>
+            </div>
+    </main>
+</body>
+</html>

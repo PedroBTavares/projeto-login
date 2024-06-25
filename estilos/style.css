@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    body{
+        background-image: linear-gradient(to bottom, #5F2C82, #4B949A);
+    }
+    #imagem{
+        height: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    main{
+        height: 280px;
+        width: 80vw;
+    }
+    #imagem{
+        width: 30%;
+
+        float: left;
+        border-radius: 15px 0 0 15px;
+    }
+    #conteudo{
+        width: calc(70% - 20px);
+
+        float: right;
+        border-radius: 0 15px 15px 0;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    main{
+        height: 350px;
+        width: 950px;
+    }
+    #imagem{
+        width: 50%;
+
+        float: right;
+        border-radius: 0 15px 15px 0;
+    }
+    #conteudo{
+        width: calc(50% - 20px);
+        font-size: 1em;
+
+        float: right;
+        border-radius: 15px 0 0 15px;
+    }
+    p{
+        margin: 20px 0;
+    }
+    input.cxtxt{
+        transform: translateY(-7px);
+    }
+}
